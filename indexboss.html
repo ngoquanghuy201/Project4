@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management</title>
+    <link rel="stylesheet" href="styleboss.css">
+</head>
+<body>
+    <header>
+        <h2>
+            Student Management
+        </h2>
+        <nav class="navigation">
+            <a href="index-main.html">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <button class="btn-logout" onclick="logout()">Log Out</button>
+        </nav>
+    </header>
+    <div class="accountlist">
+        <!-- <div class="table">   
+        </div> -->
+        <table class="table" id="studentTable">
+            <thead>
+                <tr>
+                    <th>NO.</th>
+                    <th>Student's Name</th>
+                    <th>Gender</th>
+                    <th>Phone</th>
+                    <th>Mail</th>
+                    <th>Address</th>
+                    <th>Note</th>
+                </tr>
+            </thead>
+            <!-- <tbody id="tableBody">
+            </tbody> -->
+        </table>
+        <table>
+            <tbody id="tableBody">
+            </tbody>
+        </table>
+    </div>
+<!---------------------------------------------------------->
+    <!-- <div class="show-student" id="show-student">
+        <div class="student-infor">
+            <div class="body">
+                <div class="left-body">
+                    <div class="std-inf">
+                        <h3>Student Information</h3>
+                        <div class="usercode">
+                            <p id="usercode"><ion-icon name="person-outline"></ion-icon></p>
+                            <p class="text" style="color: rgb(131, 131, 131, 1)">Dương Thanh Tùng</p>
+                        </div>
+                        <div class="usercode">
+                            <p id="usercode"><ion-icon name="person-circle-outline"></ion-icon></p>
+                            <p class="text" style="color: rgb(131, 131, 131, 1)">BIT220165</p>
+                        </div>
+                        <div class="major">
+                            <p id="major"><ion-icon name="git-network-outline"></ion-icon></p>
+                            <p class="text" style="color: rgb(131, 131, 131, 1)">Công nghệ thông tin</p>
+                        </div>
+                        <div class="school">
+                            <p id="school"><ion-icon name="business-outline"></ion-icon></p>
+                            <p class="text" style="color: rgb(131, 131, 131, 1)">CMC UNIVERSITY</p>
+                        </div>
+                        <div class="mail">
+                            <p id="mail"><ion-icon name="mail-outline"></ion-icon></p>
+                            <p class="text" style="color: rgb(131, 131, 131, 1)">bit220165@st.cmc-u.edu.vn</p>
+                        </div>
+                    </div>
+        
+                </div>
+                <div class="right-body">       
+                    <div class="course">
+                <h3>Course</h3>
+                <div class="course1">
+                    <p id="course1"><ion-icon name="book-outline"></ion-icon></p>
+                    <p class="text" style="color: rgb(131, 131, 131, 1)">Công nghệ phần mềm</p>
+                </div>
+                <div class="course2">
+                    <p id="course2"><ion-icon name="book-outline"></ion-icon></p>
+                    <p class="text" style="color: rgb(131, 131, 131, 1)">Cơ sở dữ liệu</p>
+                </div>
+                <div class="course3">
+                    <p id="course3"><ion-icon name="book-outline"></ion-icon></p>
+                    <p class="text" style="color: rgb(131, 131, 131, 1)">Cơ sở lập trình web</p>
+                </div>
+                <div class="course4">
+                    <p id="course4"><ion-icon name="book-outline"></ion-icon></p>
+                    <p class="text" style="color: rgb(131, 131, 131, 1)">Cơ sở lập trình</p>
+                </div>
+                <div class="course5">
+                    <p id="course5"><ion-icon name="book-outline"></ion-icon></p>
+                    <p class="text" style="color: rgb(131, 131, 131, 1)">Tư tưởng Hồ Chí Minh</p>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- ---------------------------------------------------------- -->
+    <div class="show-student" id="show-student">
+        <div id="studentInfoContainer">
+
+        </div>
+    </div>
+    
+<!---------------------------------------------------------->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="scriptboss.js"></script>
+</body>
+</html>

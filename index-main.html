@@ -1,0 +1,267 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-main.css">
+    <script src="script-main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>ProjectLan3</title>
+ </head>
+ <body>
+    <header class="header">
+        <!-- <div class="logo">
+
+        </div> -->
+        <div class="header-main">
+            <div class="header-main-left">
+                <div class="logo">
+                    <img src="logo-color.png" alt="">
+                </div>
+                <div class="course-search">
+                    <input type="text" id="course-search">
+                    <div class="search">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="header-main-right">
+                <div class="hotline">
+                    <ion-icon name="call"></ion-icon>
+                    <p>0968418269</p>
+                </div>
+                <div class="login-register">
+                    <button class="login" id="buttonlog" style="cursor: pointer;">
+                        <p onclick="loginfrommain()">Đăng nhập</p>
+                    </button>
+                    <!-- <div class="login" id="buttonlog">
+                        <p>Đăng nhập</p>
+                    </div> -->
+                    <!-- <button class="register" id="buttonlog" style="cursor: pointer;">
+                        <p>Đăng ký</p>
+                    </button> -->
+                </div>
+            </div>
+        </div>
+        <div class="header-extra">
+            <div class="header-container">
+                <div class="under-logo">
+                
+                </div>
+                <div class="header-extra-main">
+                    <a href="">Giới thiệu</a>
+                    <a href="">Giáo viên</a>
+                    <a href="">Tự luyện</a>
+                    <a href="">Hướng nghiệp</a>
+                    <a href="">Thư viện</a>
+                    <a href="">Hướng dẫn đăng ký học</a>
+                    <a href="">Hỗ trợ</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="main-semester">
+            <div class="semester-1">
+                <div class="line-semester">
+    
+                </div>
+                <div class="semester">
+                    <p>Học kì 1</p>
+                </div>
+            </div>
+            <div class="course">
+                <div class="course-outline-1">
+                    <div class="course-line-1">
+                        <div class="course-ads">
+        
+                        </div>
+                        <div class="course-class" onclick="vldt()" id="vldt">
+                            <div class="img">
+                                <img src="vl.jpg" alt="">
+                            </div>
+                            <div class="course-main">
+                                <div class="course-name">
+                                    <p>
+                                        Vật lí điện tử
+                                    </p>
+                                </div>
+                                <div class="course-teacher">
+                                    <p>
+                                        Giáo viên: <a href="">Nguyễn Thị Thu</a>
+                                    </p>
+                                </div>
+                                <div class="course-lesson-question">
+                                    <div class="lesson">
+                                        <ion-icon name="play-circle-outline"></ion-icon>
+                                        <p>60 bài giảng</p>
+                                    </div>
+                                    <div class="question">
+                                        <ion-icon name="help-circle-outline"></ion-icon>
+                                        <p>1000 câu hỏi</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="course-class" onclick="gt()" id="gt">
+                            <div class="img">
+                                <img src="gt1.jpg" alt="">
+                            </div>
+                            <div class="course-main">
+                                <div class="course-name">
+                                    <p>
+                                        Giải tích
+                                    </p>
+                                </div>
+                                <div class="course-teacher">
+                                    <p>
+                                        Giáo viên: <a href="">Cô Vân Anh</a>
+                                    </p>
+                                </div>
+                                <div class="course-lesson-question">
+                                    <div class="lesson">
+                                        <ion-icon name="play-circle-outline"></ion-icon>
+                                        <p>60 bài giảng</p>
+                                    </div>
+                                    <div class="question">
+                                        <ion-icon name="help-circle-outline"></ion-icon>
+                                        <p>1000 câu hỏi</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="course-class" onclick="nmcntt()" id="nmcntt">
+                            <div class="img">
+                                <img src="nmcntt.jpg" alt="">
+                            </div>
+                            <div class="course-main">
+                                <div class="course-name">
+                                    <p>
+                                        Nhập môn công nghệ thông tin
+                                    </p>
+                                </div>
+                                <div class="course-teacher">
+                                    <p>
+                                        Giáo viên: <a href="">Hoàng Trọng Minh</a>
+                                    </p>
+                                </div>
+                                <div class="course-lesson-question">
+                                    <div class="lesson">
+                                        <ion-icon name="play-circle-outline"></ion-icon>
+                                        <p>60 bài giảng</p>
+                                    </div>
+                                    <div class="question">
+                                        <ion-icon name="help-circle-outline"></ion-icon>
+                                        <p>1000 câu hỏi</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="course-line-2">
+                    <div class="course-class" onclick="dstt()" id="dstt">
+                        <div class="img">
+                            <img src="dstt.jpg" alt="">
+                        </div>
+                        <div class="course-main">
+                            <div class="course-name">
+                                <p>
+                                    Đại số tuyến tính
+                                </p>
+                            </div>
+                            <div class="course-teacher">
+                                <p>
+                                    Giáo viên: <a href="">Dũng</a>
+                                </p>
+                            </div>
+                            <div class="course-lesson-question">
+                                <div class="lesson">
+                                    <ion-icon name="play-circle-outline"></ion-icon>
+                                    <p>60 bài giảng</p>
+                                </div>
+                                <div class="question">
+                                    <ion-icon name="help-circle-outline"></ion-icon>
+                                    <p>1000 câu hỏi</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course-class" onclick="thml()" id="thmln">
+                        <div class="img">
+                            <img src="mac.jpg" alt="">
+                        </div>
+                        <div class="course-main">
+                            <div class="course-name">
+                                <p>
+                                    Triết học Mác - Lê Nin
+                                </p>
+                            </div>
+                            <div class="course-teacher">
+                                <p>
+                                    Giáo viên: <a href="">Trần Thị Minh Châu</a>
+                                </p>
+                            </div>
+                            <div class="course-lesson-question">
+                                <div class="lesson">
+                                    <ion-icon name="play-circle-outline"></ion-icon>
+                                    <p>60 bài giảng</p>
+                                </div>
+                                <div class="question">
+                                    <ion-icon name="help-circle-outline"></ion-icon>
+                                    <p>1000 câu hỏi</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course-class" onclick="ta4()" id="talv4">
+                        <div class="img">
+                            <img src="ta4.jpg" alt="">
+                        </div>
+                        <div class="course-main">
+                            <div class="course-name">
+                                <p>
+                                    Tiếng Anh Level 4
+                                </p>
+                            </div>
+                            <div class="course-teacher">
+                                <p>
+                                    Giáo viên: <a href="">Trang - Diệp</a>
+                                </p>
+                            </div>
+                            <div class="course-lesson-question">
+                                <div class="lesson">
+                                    <ion-icon name="play-circle-outline"></ion-icon>
+                                    <p>60 bài giảng</p>
+                                </div>
+                                <div class="question">
+                                    <ion-icon name="help-circle-outline"></ion-icon>
+                                    <p>1000 câu hỏi</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course-class" onclick="teacherNguyenThiThu()" id="none">
+                        
+                    </div>
+                    <div class="course-class" onclick="teacherNguyenThiThu()" id="none">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Cơ quan chủ quản:  Công ty Cổ phần Đầu tư và Dịch vụ Giáo dục một mình kao <br></p>
+        <p>Mã số thuế: ********** do Sở kế hoạch và Đầu tư thành phố Hà Nội cấp ngày 28 tháng 03 năm 2022 <br></p>
+        <p>Địa chỉ: <br></p>
+        <p>- Văn phòng chính: ở đâu đó quanh đây, Hà Đông, Hà Nội <br></p>
+        <p>- Văn phòng nhượng quyền: chả có đâu lewlew <br></p>
+        <p>Hotline: 0968418269 - email:nqhuy.dev2001@gmail.com <br></p>
+        <p>Chịu trách nhiệm nội dung: Ngô Quang Huy</p>
+    </footer>
+ </body>
+ </html>

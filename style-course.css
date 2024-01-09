@@ -1,0 +1,210 @@
+.logo{
+    width: 103px;
+    height: 103px;
+    border: 1px solid blue;
+    transition: ease 0.2s;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+header{
+    width: 100%;
+    height: 105px;
+    /* border: 1px solid grey; */
+    /* display: flex; */
+    justify-content: center;
+    box-shadow: 2px 2px 5px #747373;
+}
+
+.header-main{
+    width: 1320px;
+    height: 65px;
+    /* border: 1px solid gray; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin: 0 auto;
+    box-shadow: 2px 2px 5px #747373;
+}
+
+.header-main-left{
+    display: flex;
+}
+
+.course-search{
+    width: 320px;
+    height: 40px;
+    /* border: 1px solid gray; */
+    margin: auto 0;
+    display: flex;
+    background-color: #F2F3F5;
+}
+
+.course-search input{
+    width: 280px;
+    height: 36px;
+    background-color: #F2F3F5;
+}
+
+input{
+    outline: none;
+}
+
+.course-search .search{
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #F2F3F5;
+}
+
+.course-search ion-icon{
+    color: blue;
+}
+
+.header-main-right{
+    display: flex;
+    align-items: center;
+}
+
+.hotline{
+    width: 162px;
+    height: 65px;
+    /* border: 1px solid gray; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: orange;
+    
+}
+
+.hotline p{
+    font-size: 18px;
+}
+
+.hotline ion-icon{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.login-register{
+    width: 250px;
+    height: 50px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.login-register button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.login{
+    width: 110px;
+    height: 40px;
+    border: 1px solid orange;
+    margin-right: 20px;
+}
+
+.register{
+    width: 110px;
+    height: 40px;
+    border: 1px solid orange;
+}
+
+#buttonlog{
+    border-radius: 5px;
+}
+
+
+
+.header-extra{
+    width: 1320px;
+    height: 38px;
+    /* border: 1px solid brown; */
+    /* display: flex; */
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+
+.header-extra-main{
+    display: flex;
+    width: 770px;
+    height: 38px;
+    /* border: 1px solid black; */
+    align-items: center;
+    /* justify-content: center; */
+    margin-left: 22px;
+}
+
+.under-logo{
+    width: 104px;
+    height: 38px;
+    /* border: 1px solid red; */
+    box-shadow: 2px 2px 5px #747373;
+}
+
+.header-container{
+    display: flex;
+}
+
+.header-extra-main a{
+    margin-right: 25px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.main{
+    width: 1320px;
+    height: auto;
+    /* border: 1px solid black; */
+    margin: 20px auto;
+}
+
+.main-semester{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid purple; */
+    margin-bottom: 60px;
+}
+
+
+footer{
+    width: 1320px;
+    border: 1px solid rgb(221, 221, 223);
+    margin: auto;
+    font-size: 15px;
+    color: #888888;
+    
+}
+
+
+.img{
+    width: 100%;
+    /* height: 155px auto; */
+    /* border: 1px solid red; */
+    display: block;
+}
+
+
+img{
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+}
+
+.vldt{
+    color: red;
+    justify-content: center;
+    display: flex;
+}
